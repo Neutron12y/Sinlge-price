@@ -29,12 +29,12 @@ body  {
     justify-items:center;
     align-items:center;
      background-color: var(--cir-Teal-100);
-        margin-bottom:4rem;
+        margin-top:6rem;
 
 }
 
 .container {
-    width:1000px;
+    width:900px;
     height: 800px;
     display:grid;
     grid-template-columns:repeat(2, 400px);
@@ -219,7 +219,7 @@ h3 {
         display:grid;
         align-content:center;
         place-content:center;
-        margin-right:-9rem;
+        margin-right:-6rem;
         margin-top:14rem;
     }
 }
@@ -238,7 +238,7 @@ h3 {
         align-content:center;
         place-content:center;
         margin-top:10rem;
-        margin-left:-5rem;
+        margin-left:-6rem;
     }
 }
 
@@ -423,7 +423,7 @@ span {
         align-content:center;
         place-content:center;
         margin-top:16rem;
-        margin-left:-6rem;
+        margin-left:-5rem;
     }
 
      .container .community:nth-child(1) {
@@ -449,9 +449,23 @@ span {
         align-content:center;
         place-content:center;
         margin-top:16rem;
-        margin-left:-9rem;
+        margin-left:-7rem;
     }
 }
+
+@media (max-width:390px) {
+
+    .container  {
+        display:grid;
+        align-content:center;
+        place-content:center;
+        margin-top:16rem;
+margin-left:-6rem;
+    }
+
+}
+
+
 @media (max-width:375px) {
 
     .container  {
@@ -484,8 +498,8 @@ margin-left:-3rem;
         display:grid;
         align-content: center;
         place-content:center;
-        margin-left:-3rem;
-        margin-top:16rem;
+        margin-left:-5rem;
+        margin-top:12rem;
     }
 }
 @media (max-width:344px) {
@@ -493,7 +507,7 @@ margin-left:-3rem;
         display:grid;
         align-content:center;
         place-content:center;
-        margin-top:16rem;
+        margin-top:12rem;
         margin-left:-2rem;
     }
 
