@@ -29,12 +29,13 @@ body  {
     justify-items:center;
     align-items:center;
      background-color: var(--cir-Teal-100);
+        margin-top:9rem;
 
 }
 
 .container {
-    width:1000px;
-    height: 1000px;
+    width:800px;
+    height: 800px;
     display:grid;
     grid-template-columns:repeat(2, 400px);
     grid-template-rows:400px 400px;
@@ -43,7 +44,6 @@ body  {
     place-content: center;
     margin:2rem;
     padding:1rem;
-    row-gap: px;
    
 
      
