@@ -29,13 +29,13 @@ body  {
     justify-items:center;
     align-items:center;
      background-color: var(--cir-Teal-100);
-        margin-bottom:2rem;
+        margin-bottom:4rem;
 
 }
 
 .container {
-    width:900px;
-    height: 900px;
+    width:1000px;
+    height: 800px;
     display:grid;
     grid-template-columns:repeat(2, 400px);
     grid-template-rows:400px 400px;
